@@ -7,10 +7,30 @@
     <title>Fun Landing Page</title>
 </head>
 <body>
-    <h1>Medium Hotline</h1>
-    <h2>Please select a celebrity below!</h2>
-    <form action=""></form>
-    <img src="./images/Mediumcalls.jpg" alt="Medium crystal">
+    <header>
+        <h1 class="text" id="title">Medium Hotline</h1>
+    </header>
+
+    <main>
+        <form id="celeb-list">
+            <label for="celeb-select" class="text">Please type in the name of a person dead or alive below</label>
+            <input type="text" name="celeb-select" id="celeb-select" placeholder="Enter Name Here">
+        </form>
+        <form id="info-form">
+            <h2 class="text">Provide us with your information down below and we will summon you when the time is right</h2>
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Mother's Maiden Name">
+            <input type="text" placeholder="Social Security Number">
+            <input type="text" placeholder="Credit Card Number">
+            <input type="text" placeholder="Blood Type">
+            <input type="text" placeholder="Religious Faction">
+        </form>
+    </main>
+    <footer>
+        <button>submit</button>
+    </footer>
     
     <script src="./main.js"></script>
 </body>
